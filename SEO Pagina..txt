@@ -1,0 +1,14 @@
+Busque informacion sobre palabras claves que deferia saber un "Cafetero" y añadi unas pares mias.
+<meta name="Keywords" contend="CAFE, FAMILIA, RICO, DESAYUNO, MERIENDA, RESTAURANTE, TUESTE, ARABICA, ROBUSTA, AÑO CAFETERO, LATTE ART, BARISTA, COLD BREW"
+
+Luego un agregue un titulo especial para cada pagina (2 en este caso).
+
+COFFEE Express - que es el home.
+
+Contactos - que es la seccion para recibir mas informacion.
+
+Por ultimo una breve descripcion para la Pagina:
+
+"Empezá a Vivir la Experiencia del Café Perfecto. ¡Ingresá ahora y Compra tu Cafetera! Adquiera su Máquina Nespresso y Descubra Nuevas Formas de Hacer Buen Café. Envíos al Interior.
+ Comprá sin Salir de Casa. Boutique Online. Máquinas. Envío Gratis. Cápsulas."
+

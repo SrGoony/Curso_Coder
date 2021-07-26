@@ -1,0 +1,199 @@
+*{
+    margin: 0; padding: 0;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+    "header     header"
+    "portada    portada"
+    "cartasPro  cartasPro"
+    "contenidoA contenidoA"
+    "linea      linea"
+    "contenidoB imgA"
+    "imgB       contenidoC"
+    "footer     footer"
+    ;
+}
+
+header{
+    grid-area: header;
+    background-color: #5A5B69;
+}
+
+header h1{
+    font-size: 60px;
+    padding: 30px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+/*NAVEGADOR*/
+.bgColor{
+    background-color: #42434D;
+
+}
+
+.fotoPortada{
+    grid-area: portada;
+}
+
+/*CARTAS*/
+
+.cartasPro{
+    grid-area: cartasPro;
+    background-color: #42434D;
+    margin-top: 20px;
+}
+
+.cartasPro h3{
+    text-align: center;
+    color: white;
+    margin: 20px;
+    font-family: 'Abel', sans-serif;
+}
+
+.cartasFlex{
+    display: flex;
+    justify-self: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.cartasPro .card{
+    margin: 10px;
+}
+
+
+.sectionA{
+    grid-area: contenidoA;
+}
+
+.g2{
+    width: 70%;
+    margin: 20px;
+    justify-self: center;
+
+}
+
+.g2 h3{
+    font-size: 200%;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Abel', sans-serif;
+}
+.g2 p{
+    font-size: 20px;
+    color: gray;
+    font-family: 'Abel', sans-serif;
+}
+
+.linea{
+    grid-area: linea;
+    width: 80%;
+    border-bottom: solid 1px gray;
+    margin: 20px;
+    justify-self: center;
+}
+.sectionB{
+    grid-area: contenidoB;
+    margin: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+.foto1{
+    grid-area:  imgA ;
+    background-image: url(multimedia/foto\ antigua.jpg);
+    width: 70%; height: 300px;
+    background-position: center center;
+    background-size: cover;
+    justify-self: center;
+}
+
+.foto2{
+    grid-area: imgB;
+     background-image: url(multimedia/cafeSem.jpg);
+     width: 80%; height: 300px;
+     background-position: center center;
+     background-size: cover;
+     justify-self: center;
+}
+
+.sectionC{
+    grid-area: contenidoC;
+    align-self: center;
+}
+
+footer{
+    margin-top: 30px;
+    grid-area: footer;
+    background-color: #5A5B69;
+    height: 60px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Abel', sans-serif;
+}
+
+@media (max-width: 414px){
+    .contenedor{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "portada"
+        "cartasPro"
+        "contenidoA"
+        "linea"
+        "contenidoB" 
+        "imgA"
+        "contenidoC"
+        "imgB"
+        "footer";
+}
+}
+
+@media (max-width: 834px){
+    .contenedor{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "portada"
+        "cartasPro"
+        "contenidoA"
+        "linea"
+        "contenidoB" 
+        "imgA"
+        "contenidoC"
+        "imgB"
+        "footer"
+        ;
+    }
+}
+
+/*CONTACTO*/
+.container{
+    background-color: white;
+}
+.form-group{
+    margin:15px;
+}
+.form-control{
+    margin: 5px;
+}
+
+.container .titulo-form{
+    text-align: center;
+    margin:20px;
+}
+.container .texto-form{
+    text-align: center;
+}
+#text-area{
+    display: flex;
+    flex-flow: row nowrap;
+}
